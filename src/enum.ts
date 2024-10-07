@@ -10,7 +10,8 @@ type keyInput = "up" | "down" | "left" | "right";
 // other way to write as a human readable as enum
 
 enum Directions { // syntax for enum we write on code
-  up,
+  up = 10, // basically its getting an index how they are stored if i doesn't give any value then
+  // it accordingly take as 0 and if we want to explicitelly then in that case it will take that accordingly
   down,
   left,
   right,

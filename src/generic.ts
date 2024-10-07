@@ -1,4 +1,5 @@
 function identity<T>(arg: T) {
+  // use of generic all the types can be passed
   return arg;
 }
 
